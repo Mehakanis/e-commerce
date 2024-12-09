@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Listings() {
   return (
     <section className="pt-[100px]">
-      <div className="text-[22px] pl-[20px] text-[#2A254B]">You might also like</div>
+      <div className="text-[22px] pl-[20px] text-[#2A254B] text-center md:text-left">You might also like</div>
       <div className="flex flex-wrap justify-around mt-10 text-[#2A254B]">
         <div className="w-[250px] ">
           <div className="aspect-[2/2.5] relative">

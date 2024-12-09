@@ -12,7 +12,7 @@ export default function HeroBlock(){
 with nice fonts, tasteful colors and a beautiful way to display things digitally <br />
 using modern web technologies.</p>
             </div>
-            <div>
+            <div className="hidden md:block">
                 <Image src="/hero.png" alt="hero image" width={350} height={500} />
             </div>
 

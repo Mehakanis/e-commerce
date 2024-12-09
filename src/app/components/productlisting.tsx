@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button"
 export default function ProductListing(){
     return(
         <section className="pt-[100px]">
-            <div className="text-[22px] pl-[16px] text-[#2A254B]">Our popular products</div>
+            <div className="text-[22px] pl-[16px] text-[#2A254B] text-center md:text-left">Our popular products</div>
       <div className="flex flex-wrap justify-around mt-10 text-[#2A254B]">
       <div className="w-[490px] h-[350px]">
           <div className="aspect-[2/1.27] relative">
