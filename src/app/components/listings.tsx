@@ -7,7 +7,7 @@ export default function Listings() {
       <div className="text-[22px] pl-[16px] text-[#2A254B]">New ceramics</div>
       <div className="flex flex-wrap justify-around mt-10 text-[#2A254B]">
         <div className="w-[250px] ">
-          <Link href="/productlisting">
+          
             
             <div className="aspect-[2/2.5] relative">
               <Image
@@ -17,7 +17,7 @@ export default function Listings() {
                 objectFit="cover"
               />
             </div>
-          </Link>
+      
 
           <h4 className="pt-4 text-[14px]">The Dandy chair</h4>
           <p className="pt-2 text-[14px]">£250</p>
