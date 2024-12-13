@@ -2,7 +2,7 @@ import Image from "next/image"
 import { Button } from "@/components/ui/button"
 export default function Features2(){
     return(
-        <section className="flex flex-wrap text-[#FFFFFF] justify-between">
+        <section className="flex flex-wrap text-[#FFFFFF] justify-center lg:justify-between">
             <div className="px-20 py-20">
                 <h2 className="text-[#2A254B] text-xl">From a studio in London to a global brand with <br />
                 over 400 outlets</h2>
@@ -13,7 +13,7 @@ export default function Features2(){
             </div>
             <div className="">
 <Image src="/features.png" alt="" height={500} width={550}
-    className="max-w-full h-auto sm:w-[200px] sm:h-[200px] md:w-[300px] md:h-[300px] lg:w-[550px] lg:h-[460px]"
+    className="max-w-full h-auto sm:w-[200px] sm:h-[200px] md:w-[350px] md:h-[350px] lg:w-[550px] lg:h-[460px]"
 
 />
             </div>

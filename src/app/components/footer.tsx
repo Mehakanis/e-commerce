@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <section className=" bg-[#2A254B]">
       <div className="flex flex-wrap justify-evenly pt-14 md:mt-[-64px] space-y-10 md:space-y-0">
-        <div className="flex flex-col md:flex-row items-center gap-32 text-white ml-[-80px]">
+        <div className="flex  items-center gap-10 md:gap-32 text-white ml-[-20px] md:ml-[-80px]">
           <div>
             <h4 className="pb-2">Menu</h4>
             <ul className="text-xs space-y-2">
@@ -51,7 +51,7 @@ export default function Footer() {
             <input
               type="email"
               placeholder="your@email.com"
-              className="bg-gray-600 pl-4 pr-20 py-2 border-none flex-1 "
+              className="bg-gray-600 pl-4 pr-8 md:pr-20 py-2 border-none flex-1 "
             />
             <button className="bg-white px-3 py-[9.5px] text-[#2A254B] text-sm">
               Sign up

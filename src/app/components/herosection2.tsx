@@ -14,7 +14,7 @@ export default function HeroSection2() {
             </div>
             
             {/* Content Section */}
-            <div className="pt-8 lg:pt-16">
+            <div className="pt-8 lg:pt-16 ">
                 {/* Title and Price */}
                 <div>
                     <h1 className="text-xl lg:text-2xl">The Dandy Chair</h1>
@@ -26,9 +26,9 @@ export default function HeroSection2() {
                     <h4 className="text-sm lg:text-[14px]">Description</h4>
                     <p className="text-xs lg:text-[12.5px] pt-4">
                         A timeless design, with premium materials features as one of our most
-                        <br />
+                        <br className="hidden md:block"/>
                         popular and iconic pieces. The dandy chair is perfect for any stylish
-                        <br />
+                        <br className="hidden md:block"/>
                         living space with beech legs and lambskin leather upholstery.
                     </p>
                     <ul className="text-xs lg:text-[12.5px] list-disc pl-6 pt-4">

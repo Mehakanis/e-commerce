@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 export default function Listings() {
   return (
     <section className="pt-[100px]">
@@ -7,28 +8,28 @@ export default function Listings() {
       <div className="flex flex-wrap justify-around mt-10 text-[#2A254B]">
         <div className="w-[250px] ">
           <div className="aspect-[2/2.5] relative">
-            <Image src="/hero.png" alt="chair" layout="fill" objectFit="cover" />
+         <Image src="/hero.png" alt="chair" layout="fill" objectFit="cover" />
           </div>
           <h4 className="pt-4 text-[14px]">The Dandy chair</h4>
           <p className="pt-2 text-[14px]">£250</p>
         </div>
         <div className="w-[250px]">
           <div className="aspect-[2/2.5] relative">
-            <Image src="/3vases.png" alt="vases" layout="fill" objectFit="cover" />
+          <Link href="/productlisting"><Image src="/3vases.png" alt="vases" layout="fill" objectFit="cover" /></Link>
           </div>
           <h4 className="pt-4 text-[14px]">Rustic Vase Set</h4>
           <p className="pt-2 text-[14px]">£155</p>
         </div>
         <div className="w-[250px]">
           <div className="aspect-[2/2.5] relative">
-            <Image src="/vase.png" alt="vase" layout="fill" objectFit="cover" />
+          <Link href="/productlisting"><Image src="/vase.png" alt="vase" layout="fill" objectFit="cover" /></Link>
           </div>
           <h4 className="pt-4 text-[14px]">The Silky Vase</h4>
           <p className="pt-2 text-[14px]">£125</p>
         </div>
         <div className="w-[250px]">
           <div className="aspect-[2/2.5] relative">
-            <Image src="/lamp.png" alt="lamp" layout="fill" objectFit="cover" />
+          <Link href="/productlisting"> <Image src="/lamp.png" alt="lamp" layout="fill" objectFit="cover" /></Link>
           </div>
           <h4 className="pt-4 text-[14px]">The Lucy Lamp</h4>
           <p className="pt-2 text-[14px]">£399</p>
