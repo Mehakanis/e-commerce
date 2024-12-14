@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Listings() {
   return (
     <section className="pt-[100px]">
-      <div className="text-[22px] pl-[16px] text-[#2A254B]">New ceramics</div>
+      <div className="text-[22px] pl-[16px] text-[#2A254B] text-center md:text-left">New ceramics</div>
       <div className="flex flex-wrap justify-around mt-10 text-[#2A254B]">
         <div className="w-[250px] ">
           

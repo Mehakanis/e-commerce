@@ -14,7 +14,7 @@ export default function Header1() {
         <div className="flex flex-wrap justify-between items-center mt-6 border-b-2 pb-5 px-4 md:px-10 lg:px-20">
           <Sheet>
             <SheetTrigger asChild>
-              <Menu className="block md:hidden text-gray-600 stroke-[1.5px] cursor-pointer" />
+              <Menu className="block md:hidden text-center text-gray-600 stroke-[1.5px] cursor-pointer" />
             </SheetTrigger>
 
             <SheetContent side="left" className="p-4">

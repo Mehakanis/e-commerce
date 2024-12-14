@@ -35,7 +35,9 @@ export default function Header2() {
               <Search className="stroke-[1.5px] text-gray-600" />
             </div>
             <div>
+              <Link href="/cart">
               <ShoppingCartIcon className="stroke-[1.5px] text-gray-600" />
+              </Link>
             </div>
             <div>
               <CircleUser className="stroke-[1.5px] text-gray-600" />

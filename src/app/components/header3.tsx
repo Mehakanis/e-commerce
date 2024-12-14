@@ -67,7 +67,9 @@ export default function Header3() {
                 <Search className="stroke-[1.5px]" />
               </div>
               <div>
+                <Link href="/cart">
                 <ShoppingCartIcon className="stroke-[1.5px]" />
+                </Link>
               </div>
               <div>
                 <CircleUser className="stroke-[1.5px]" />
