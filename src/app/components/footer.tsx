@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <section className=" bg-[#2A254B]">
       <div className="flex flex-wrap justify-evenly pt-14 md:mt-[-64px] space-y-10 md:space-y-0">
-        <div className="flex  items-center gap-10 md:gap-32 text-white ml-[-20px] md:ml-[-80px]">
+        <div className="flex  items-center gap-10 md:gap-14 lg:gap-32 text-white ml-[-20px] md:ml-[-80px] md:pl-10">
           <div>
             <h4 className="pb-2">Menu</h4>
             <ul className="text-xs space-y-2">
@@ -47,7 +47,7 @@ export default function Footer() {
               Join our mailing list
             </p>
           </div>
-          <div className="flex flex-wrap justify-center md:justify-start gap-2">
+          <div className="flex flex-wrap justify-center md:justify-start ">
             <input
               type="email"
               placeholder="your@email.com"

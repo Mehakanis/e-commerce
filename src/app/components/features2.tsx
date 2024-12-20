@@ -9,11 +9,11 @@ export default function Features2(){
                 <p className="text-sm text-[#505977] pt-5 md:pt-7 ">When we started Avion, the idea was simple. Make high quality furniture <br /> affordable and available for the mass market.</p>
                  
                  <p className="text-sm text-[#505977] pt-2 md:pt-4"> Handmade, and lovingly crafted furniture and homeware is what we live, <br /> breathe and design so our Chelsea boutique become the hotbed for the <br /> London interior design community.</p>
-            <Button className="bg-[#F9F9F9] text-[#2A254B] text-[12px] hover:bg-lightgrey mt-16 md:mt-32">Get in touch</Button>
+            <Button className="bg-[#F9F9F9] text-[#2A254B] text-[12px] hover:bg-lightgrey mt-16 md:mt-20">Get in touch</Button>
             </div>
             <div className="">
-<Image src="/features.png" alt="" height={500} width={550}
-    className="max-w-full h-auto sm:w-[200px] sm:h-[200px] md:w-[350px] md:h-[350px] lg:w-[550px] lg:h-[460px]"
+<Image src="/features.png" alt="" height={500} width={600}
+    className="max-w-full h-auto md:w-[500px] md:h-[380px] lg:w-[550px] lg:h-[460px] md:pb-20 md:[-mt-40px]"
 
 />
             </div>
